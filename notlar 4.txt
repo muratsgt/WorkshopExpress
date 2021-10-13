@@ -1,0 +1,50 @@
+Model View Controller  (MVC)
+
+Model
+Database ile Frontend arasindaki aracilar 
+iletisimin nasil kurulacagini gosteriyor.
+
+View
+Frontend tarafi tasarim
+
+Controller
+Bu da aktif kod diyebiliriz
+Islemleri halletmek icin kodlar
+
+
+Servera bir request geliyor
+Ilk once app.js e geliyor.
+Burdan biz Controllera yonlendiriyoruz.
+Controller ile inceliyor ve gereken islemi yapiyoruz
+
+
+Middleware
+Application level Middlewareler
+app nesnesi uzerinden ulastiklarimiz
+    app.set, app.get, app.post, app.delete
+    Expressi design edenler bunu Middleware yapisi olarak design etmisler
+
+app.use
+    gelen her istek buraya giriyor
+
+
+yazilimda en onemli meselelerden biri sorumluluklarin ayrilmasi
+islemlerin ayrilmasi
+
+
+Sequelize kullanirken
+Model olusturmak icin 2 yontem
+    define metodu
+    class yontemi
+
+
+
+
+
+Code First
+    codu yaziyoruz databasede tablo olusturmakla ugrasmadan
+
+Database First
+    hazir bir database e gore codlari yaziyoruz
+
+

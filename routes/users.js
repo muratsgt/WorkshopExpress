@@ -7,3 +7,28 @@ router.get('/', function(req, res, next) {
 });
 
 module.exports = router;
+
+
+/**
+ * www.mysite.com
+ * .../about
+ * .../contact
+ * 
+ * .../products
+ * .../products/add
+ * .../products/:id
+ * .../products/:id/update
+ * .../products/:id/delete
+ * 
+ * .../categories
+ * .../categories/add
+ * .../categories/:id
+ * .../categories/:id/update
+ * .../categories/:id/delete
+ * 
+ * .../employees
+ * .../employees/add
+ * .../employees/:id
+ * .../employees/:id/update
+ * .../employees/:id/delete
+ */
