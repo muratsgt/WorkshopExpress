@@ -29,3 +29,5 @@ Artik githuba bagliyabiliriz
 Github dan da repository olusturuyoruz
 Remote --> Add Remote  buraya da github adresini yapistirarak bagliyoruz
 
+app js e dotenv configini ekliyoruz
+require('dotenv').config();
