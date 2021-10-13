@@ -1,0 +1,31 @@
+Proje olustururken adim adim;
+
+Express ile server kurulumunu yapiyoruz
+npx express-generator --view ejs
+
+Ardindan node modulleri yukluyoruz
+npm install
+
+Nodemonu da kuruyoruz, yardimci oluyor
+nmp i nodemon --save-dev
+
+Dotenvi de indirelim
+npm i dotenv
+
+Veritabani baglantisi icin de Veritabani paketi indiriyoruz
+npm i sequelize
+
+Bir sonraki veritabani paketini de indiriyoruz postgre
+npm i pg
+
+Diger ayarlari yapiyoruz
+script start a nodemon ekliyorz
+
+.env  README.md  ve  .gitignore
+bunlari olusturuyoruz
+
+Artik githuba bagliyabiliriz
+"initialize repository" diyerek sol sidebardan yapiyoruz
+Github dan da repository olusturuyoruz
+Remote --> Add Remote  buraya da github adresini yapistirarak bagliyoruz
+
